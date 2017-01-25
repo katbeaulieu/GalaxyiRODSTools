@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<tool_dependency>
+	<package name="pythonirodsclient" version="0.5.0">
+		<install version="1.0">
+			<actions>
+				<action type="setup_virtualenv" python="python2.7">
+					git+https://github.com/irods/python-irodsclient.git
+					six				
+				</action>
+			</actions>
+		</install>
+	</package>
+<!--	<package name="irods_push" version="0.1.0">
+		<repository name="repo_1" owner="katherine" /> 
+	</package>-->
+
+	
+</tool_dependency>
